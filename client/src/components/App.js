@@ -8,11 +8,11 @@ import Result from './Result';
 // React Routes
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Main',
     element : <Main></Main>
   },
   {
-    path: '/quiz',
+    path: '/',
     element : <Quiz></Quiz>
   },
   {
