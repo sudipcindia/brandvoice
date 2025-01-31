@@ -16,11 +16,10 @@ export default function Quiz() {
           <h1 className="title text-light">Brand Voice</h1>
           
           {/*Display Questions*/}
-
+          <Questions></Questions>
           <div className="grid">
-              <Questions></Questions>
-              <button className="btn" onClick={onPrevious}>Previous</button>
-              <button className="btn" onClick={onNext}>Next</button>
+              <button className="btn prev" onClick={onPrevious}>Previous</button>
+              <button className="btn next" onClick={onNext}>Next</button>
           </div>
               
           
